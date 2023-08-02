@@ -1,6 +1,6 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255,155,24);
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 132, 255);
 }
 
 .card{
@@ -9,12 +9,10 @@ body{
     border-radius: 10px;
     padding: 50px 20px 0 20px;
     box-sizing: border-box;
-    background: rgb(0,114,255);
-    background: radial-gradient(
-        circle,
-        rgba(0,114,255,1) 1%,
-        rgba(33,25,173,1) 100%
-    );
+    background-image: url(../assets/logo3.jpg);
+    background-size: 500px 350px;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 100px auto;
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
@@ -22,7 +20,7 @@ body{
 .card input{
     font-size: 28px;
     padding: 10px;
-    border: solid 1px rgb(45,154,226);
+    border: solid 1px rgb(238, 156, 80);
     color: white;
     border-radius: 5px;
     background-color: transparent;
@@ -50,4 +48,22 @@ body{
 
 .card #inputCVV{
     width: 50px;
+}
+
+.logo1{
+    width: 100px;
+}
+
+.logo2{
+    width: 100px;
+    position: absolute;
+    left: 710px;
+    top: 120px;
+}
+
+
+label{
+    color: white;
+    padding: 2%;
+    background-size: cover;
 }
